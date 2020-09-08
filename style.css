@@ -1,0 +1,64 @@
+*{
+    margin-top: 0;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+body .logo{
+    background: url('./images/img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial;
+    font-size: 20px;
+    width: 100vw;
+    height:100vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px; 
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    background: rgba(230,230, 240, 0.4);
+}
+
+
+ul li a{
+    display: block;
+    transition: .4s ease-in-out background-color;
+}
+ul li a:hover{
+    background-color: rgb(76, 124, 36);
+}
+ul li ul li{
+    display: none;
+    margin-left: -40px;
+}
+ul li:hover ul li{
+    display: block;
+}
+body button{
+    position: relative;
+    left: -570px;
+    top: 206px;
+    color: black;
+}
+#para{
+    position: relative;
+    left: -570px;
+    top: 210px;
+    color: white;
+}c
